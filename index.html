@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
 
     <title>Decodificador de texto</title>
 </head>
@@ -25,13 +26,14 @@
         <div class="container">
         <div class="input1">
             <textarea placeholder="Digite seu texto" name="" id="text-input"></textarea>
+            <i class="fa-solid fa-circle-exclamation"><span>
+                Apenas letras minúsculas e sem acento.
+            </span></i>
             <div class="botoes">
                 <button type="submit" class="botao1" id="criptografar"  onclick="criptografar()">Criptografar</button>
                 <button type="submit" class="botao2" id="descriptografar" onclick="descriptografar()">Descriptografar</button>
             </div><!--botoes-->
-            <span>
-                Apenas letras minúsculas e sem acento.
-            </span>
+         
         </div>
 
         

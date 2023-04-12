@@ -47,6 +47,14 @@ textarea::placeholder {
     color: #0A3871;
 }
 
+.input1 span, i{
+ font-style: italic;
+ font-weight: normal;
+ text-align: center;
+ font-size: 14px;
+ color: #0A3871;
+}
+
 .botao1 {
     position: relative;
     background: #0A3871;
