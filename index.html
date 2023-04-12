@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Decodificador de texto</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img src="images/Vector.svg" alt="">
+        </div>
+    </header>
+
+
+
+    <section class="inputs">
+        <div class="container">
+        <div class="input1">
+            <textarea placeholder="Digite seu texto" name="" id="text-input"></textarea>
+            <div class="botoes">
+                <button type="submit" class="botao1" id="criptografar"  onclick="criptografar()">Criptografar</button>
+                <button type="submit" class="botao2" id="descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div><!--botoes-->
+            <span>
+                Apenas letras minúsculas e sem acento.
+            </span>
+        </div>
+
+        
+     
+        <div  class="box">
+            <img id="box-img" src="/images/Highqualityproducts11.svg" alt="">
+            <h3 id="box-h3">Nenhuma mensagem encontrada</h3>
+            <p id="box-p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+         <textarea disabled name="" id="box"></textarea>
+
+            <button type="submit" class="botao3" id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+      
+    </div><!--container-->
+    <div class="clear"></div>
+    </section><!--inputs-->
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
