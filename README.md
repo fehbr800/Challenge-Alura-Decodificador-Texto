@@ -5,12 +5,12 @@ Decodificador de Texto
 Este é um programa em JavaScript que criptografa e descriptografa texto, utilizando as seguintes chaves de criptografia:
 
 <li>
-A letra "e" é convertida para "enter"
-A letra "i" é convertida para "imes"
-A letra "a" é convertida para "ai"
-A letra "o" é convertida para "ober"
-A letra "u" é convertida para "ufat"
-O programa funciona apenas com letras minúsculas, sem acentos ou caracteres especiais.
+A letra "e" é convertida para "enter"</li>
+<li>A letra "i" é convertida para "imes"</li>
+<li>A letra "a" é convertida para "ai"</li>
+<li>A letra "o" é convertida para "ober"</li>
+<li>A letra "u" é convertida para "ufat"</li>
+<li>O programa funciona apenas com letras minúsculas, sem acentos ou caracteres especiais.
 </li>
 
 
@@ -27,9 +27,9 @@ Para utilizar o programa, basta abrir o arquivo index.html em um navegador web. 
 
 Exemplo
 <li>
-Texto original: "gato"
-Texto criptografado: "gaitober"
-Texto descriptografado: "gato"
+Texto original: "gato"</li>
+<li>Texto criptografado: "gaitober"</li>
+<li>Texto descriptografado: "gato"
 </li>
  
  https://challenge-alura-decodificador-texto.vercel.app/
