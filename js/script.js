@@ -1,5 +1,3 @@
-
-
 function criptografar() {
     let texto = document.getElementById("text-input").value;
     let criptografado = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
